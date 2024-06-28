@@ -1,0 +1,177 @@
+h1 {
+    color: red;
+    font-size: 100px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+
+}
+
+.jumbotron {
+    background-color: cyan;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron img {
+    width: 300px;
+    margin: 30px;
+}
+
+.jumbotron h3,
+p {
+    color: black;
+}
+
+img {
+    width: 100px;
+}
+
+.main-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.package-container {
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.package-container p {
+    color: black;
+}
+
+.package-container img {
+    width: 300px;
+}
+
+button {
+    background-color: skyblue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.left {
+    margin-left: 60%;
+}
+
+table,
+th,
+td,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table img {
+    width: 200px;
+}
+
+header {
+    background-color: mediumaquamarine;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+}
+
+.header-title {
+    text-align: left;
+    color: white;
+    margin: 14px;
+    font-size: 18px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 15px;
+}
+
+a:hover {
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 159, 120);
+}
+
+formcontainer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+formcontainer img {
+    width: 100px;
+}
+
+input {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.about {
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.about h1 {
+    text-align: center;
+    color: darkorange;
+}
+
+.about h3 {
+    color: #2EC1AC;
+}
+
+.about p {
+    color: black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h4 class="header-title">Time Tours</h4>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="order.html">Booking</a>
+        <a href="about.html">About us</a>
+        </nav>
+    </header>
+    <main class="form_container">
+<h3>
+    <img src="images/p.jpg" alt="">
+    <form>
+        <label>Full name</label>
+        <input type="text">
+        <label>Email</label>
+        <input type="email" >
+        <label>Phone Number</label>
+        <input type="number" >
+        <label>Pick a Date</label>
+
+        <input type="date" >
+        <label>How many book?</label>
+        <input id="num-of-people" type="number">
+        <label>which book</label>
+        <select name="package" id="package">
+        <option value="80000">toefl book | Rp 80,000</option>
+        <option value="300000">HSK3 book | Rp 300,000</option>
+        <option value="60000">kurikulum merdeka book | Rp 60,000</option>
+        </select>
+        <h3>total payment : $ <span id="total"></span></h3>
+        <button onclick="process()"type= "button">process booking </button>
+        </form>
+</h3>
+    </main>
+    <footer>
+        <h1>Time Tours</h1>
+        <p>Copyright &copy 2022 Designed by Timedoor Academy </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
